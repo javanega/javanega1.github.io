@@ -1,0 +1,195 @@
+#fila {
+	margin: 0px; padding: 0px;
+}
+#unad{	/* propiedades logo institucional */
+	left: 0px;
+	margin: 0px;
+	width: 300px;
+	height: 75px;
+}
+#ecbti{	/* propiedades logo institucional */
+	left: 50px;
+	margin: 0px;
+	width: 430px;
+	height: 76px;
+}
+
+#S-I{	/* propiedades logo institucional */
+	left: 0px;
+	margin: 0px;
+	width: 880px;
+	height: 200px;
+}
+#twt{	/* propiedades logo Twitter */
+	left: 0px;
+	margin: 10px;
+	width: 30px;
+	height: 30px;
+	float:left;
+}
+#fb{	/* propiedades logo Facebook*/
+	left: 0px;
+	margin: 10px;
+	width: 30px;
+	height: 30px;
+	float:left;
+}
+#contador{
+	left: 0px;
+	margin: 10px;
+	float:right;
+}
+#title{  /*propiedades titulo entre las dos imagenes */
+	padding:25px;
+	font-family:Century725 Cn BT;
+	color:#004669;
+	text-align:center;
+}
+#bod {
+	background-color:#F3EFE8;
+	
+}
+#Im{
+	width: 250px;
+	height: 250px;
+	float:left;
+}
+#Im1{
+	width: 200px;
+	height: 200px;
+	float:left;
+}
+#Im2{
+	width: 195px;
+	height: 400px;
+	}
+#Im3{
+	width: 200px;
+	height: 170px;
+}
+#Im4{
+	
+	display:block;
+	margin:auto;
+	width: 200px;
+	height: 150px;
+}
+#Im5{
+	width: 180px;
+	height: 130px;
+	float:center;
+}
+#Im6{
+	width: 150px;
+	height: 150px;
+	float:left;
+}
+#fm{
+	display:block;
+	margin:auto;
+	width: 200px;
+	height: 200px;
+}
+#act{
+	display:block;
+	margin:auto;
+}	
+.contenedor{
+  height: 50%;
+  
+  margin: 1% 1%;
+}
+			* {
+				margin:0px;
+				padding:0px;
+			}			
+			#header {
+				margin: 0x;
+				padding:px;
+				width: 100%;
+				font-family:sans-serif;
+				background-color: #fff;
+				position:fixed;
+				z-index:1
+			}
+			#header1 {	
+				margin:auto;
+				width:30px;
+				font-family:sans-serif;
+			}
+			ul, ol {
+				list-style:none;
+			}
+			.nav {
+			background-color:#004669;
+			width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+			left: 0px; /* Posicionamos la cabecera al lado izquierdo */
+			top: 76px; /* Posicionamos la cabecera pegada arriba */
+			position: fixed; /* Hacemos que la cabecera tenga una posición fija */	
+			}
+ nav ul {
+		float:left;
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		padding-right: 0;
+		position: relative; 
+	}
+		nav ul li {
+			display: inline-block;
+			line-height: 20px;
+			position: relative; 
+            left: 30%;	/* Ubicacion del Menu */		
+		}
+			.nav > li {
+				float: center; /* Alinear el texto */			
+			}
+			.nav li a { /* Propiedades texto del Menu */
+				font-family:Century725 Cn BT;
+				font-size: 20px;
+				font-weight:bold;
+				background-color:#004669;
+				color:#5499C7;
+				text-decoration:none;
+				padding:20px;
+				display:block;
+			}
+			.nav li a:hover {
+				background-color:#FFBB33; /* Efecto al pasar Mouse */
+			}
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width: 170px; /* extender tamaño cuadro */
+			}
+			.nav li:hover > ul {
+				display:block;
+			}
+			.nav li ul li {
+				position:relative;
+			}
+			.nav li ul li ul {
+				right: 100px;
+				top:0px;
+			}
+.footer {			/* Propiedades Pie de pagina */
+  position: fixed;
+  padding: 1px;
+  font-family:Century725 Cn BT;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #004669;
+  color: white;
+  text-align: center;
+}
+#derecho{
+	padding: 2px;
+	margin:8px;
+	margin:8px;
+	font-family:Century725 Cn BT;
+	color:#EAF2F8;
+}
+#justi {
+text-align:justify;	
+}
